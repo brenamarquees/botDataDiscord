@@ -1,0 +1,14 @@
+[project]
+name = "grace-discord-calendar-bot"
+version = "0.1.0"
+description = "Discord bot for GRACE event calendar and area-specific task management"
+requires-python = ">=3.10"
+dependencies = [
+  "discord.py>=2.4.0",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
